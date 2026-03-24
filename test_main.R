@@ -1,4 +1,4 @@
-source('main.R')
+source('/projectnb/bf530/students/jiya/assignment-5-jiyaashar/main.R')
 library('testthat')
 
 
@@ -120,4 +120,4 @@ describe("run_fgsea()", {
     expect_true(max(fgsea_res$size) <= 500)
   })
 })
-
+ 
